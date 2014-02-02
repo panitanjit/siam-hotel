@@ -461,8 +461,8 @@ a:hover { color:#E65621; text-decoration:none; }
     height:628px;
     background:url(images/row3.jpg) #eeeeee;	
 	background-repeat: no-repeat;
-	position: relative;
-    top: -5px;
+	display:inline-block;
+	overflow:hidden;
 }
 
 #row-3 h2 { 
@@ -587,11 +587,9 @@ a:hover { color:#E65621; text-decoration:none; }
     background:url(images/row4.jpg) #eeeeee;	
 	background-repeat: no-repeat;	  
     height: 633px;
-    position: relative;
-    top: -33px;
+   	display:inline-block;
+	overflow:hidden;
     width: 960px;
-    /* padding : 15px 30px; */
-    /* background-color : #343333; */
 }
 
 
@@ -618,9 +616,9 @@ a:hover { color:#E65621; text-decoration:none; }
 
 #row-5{ 
 	width: 960px;
-	height: 405px;
-	position: relative;
-    top: -28px;
+	height: 441px;
+	display:inline-block;
+	overflow:hidden;
 }
 
 #footer{
